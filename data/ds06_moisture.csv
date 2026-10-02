@@ -1,0 +1,121 @@
+report,structure,borehole,sample,depth_m,wn_pct
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-01,D-5,7.5,40.05
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-01,D-16,24.0,21.91
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-01,D-21,31.5,22.3
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-01,D-27,40.5,21.72
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-02,D-5,7.5,40.59
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-02,D-15,22.5,17.98
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-02,D-22,33.0,19.15
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-02,D-29,43.5,21.33
+Bridge 33,"Bridge-33, Right Side, Dhaka End, Mir Nagar",AB-01 (R/S),D-5,7.5,43.3
+Bridge 33,"Bridge-33, Left Side, Dhaka End, Mir Nagar",AB-01 (L/S),D-8,12.0,37.44
+Bridge 33,"Bridge-33, Right Side, Dhaka End, Mir Nagar",AB-01 (R/S),D-14,21.0,20.57
+Bridge 33,"Bridge-33, Left Side, Dhaka End, Mir Nagar",AB-01 (L/S),D-19,28.5,18.83
+Bridge 33,"Bridge-33, Right Side, Dhaka End, Mir Nagar",AB-01 (R/S),D-21,31.5,19.76
+Bridge 33,"Bridge-33, Left Side, Dhaka End, Mir Nagar",AB-01 (L/S),D-23,34.5,18.58
+Bridge 33,"Bridge-33, Right Side, Dhaka End, Mir Nagar",AB-01 (R/S),D-28,42.0,21.22
+Bridge 33,"Bridge-33, Left Side, Dhaka End, Mir Nagar",AB-01 (L/S),D-29,43.5,22.06
+Bridge 33,"Bridge-33, Right Side, Sylhet End, Mir Nagar",AB-02 (R/S),D-5,7.5,37.91
+Bridge 33,"Bridge-33, Left Side, Sylhet End, Mir Nagar",AB-02 (L/S),D-6,9.0,35.65
+Bridge 33,"Bridge-33, Right Side, Sylhet End, Mir Nagar",AB-02 (R/S),D-11,16.5,18.75
+Bridge 33,"Bridge-33, Left Side, Sylhet End, Mir Nagar",AB-02 (L/S),D-12,18.0,17.81
+Bridge 33,"Bridge-33, Right Side, Sylhet End, Mir Nagar",AB-02 (R/S),D-18,27.0,18.36
+Bridge 33,"Bridge-33, Left Side, Sylhet End, Mir Nagar",AB-02 (L/S),D-20,30.0,20.64
+Bridge 33,"Bridge-33, Left Side, Sylhet End, Mir Nagar",AB-02 (L/S),D-26,39.0,21.11
+Bridge 33,"Bridge-33, Right Side, Sylhet End, Mir Nagar",AB-02 (R/S),D-27,40.5,23.94
+Bridge 34,"Undiura Bridge, R/S",BH-01,D-11,16.5,16.78
+Bridge 34,"Undiura Bridge, R/S",BH-01,D-20,30.0,25.4
+Bridge 34,"Undiura Bridge, R/S",BH-01,D-27,40.5,18.38
+Bridge 34,"Undiura Bridge, R/S",BH-01,D-32,48.0,18.78
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-19,28.5,24.83
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-24,36.0,17.55
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-30,45.0,30.23
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-33,49.5,19.02
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-01,D-2,3.0,31.72
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-01,D-11,16.5,18.57
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-01,D-21,31.5,25.03
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-01,D-31,46.5,15.04
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-02,D-8,12.0,25.0
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-02,D-12,18.0,17.2
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-02,D-19,28.5,21.72
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-02,D-29,43.5,25.0
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-01,D-7,10.5,22.74
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-01,D-12,18.0,20.95
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-01,D-17,25.5,21.05
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-01,D-27,40.5,19.9
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-02,D-2,3.0,32.98
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-02,D-10,15.0,18.76
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-02,D-17,25.5,21.63
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-02,D-28,42.0,15.72
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-01,D-3,4.5,31.52
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-01,D-13,19.5,24.64
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-01,D-23,34.5,19.51
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-01,D-31,46.5,17.23
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-02,D-5,7.5,32.93
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-02,D-13,19.5,30.96
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-02,D-23,34.5,19.51
+Bridge 37,"Bridge-37, Beside Panshi, Bejura",BH-02,D-31,46.5,15.85
+Two-span bridge,"Ch. 102+730 R/S, Sonar Tori Bridge",BH-01,D-4,6.0,41.83
+Two-span bridge,"Ch. 102+730 R/S, Sonar Tori Bridge",BH-01,D-11,16.5,20.85
+Two-span bridge,"Ch. 102+730 R/S, Sonar Tori Bridge",BH-01,D-25,37.5,20.67
+Two-span bridge,"Ch. 102+730 R/S, Sonar Tori Bridge",BH-01,D-34,51.0,21.28
+Two-span bridge,"Ch. 102+770, Sonar Tori Bridge",BH-02,D-3,4.5,40.42
+Two-span bridge,"Ch. 102+770, Sonar Tori Bridge",BH-02,D-11,16.5,24.15
+Two-span bridge,"Ch. 102+770, Sonar Tori Bridge",BH-02,D-22,33.0,30.34
+Two-span bridge,"Ch. 102+770, Sonar Tori Bridge",BH-02,D-30,45.0,21.78
+Two-span bridge,"Ch. 102+810, Sonar Tori Bridge",BH-03,D-2,3.0,27.48
+Two-span bridge,"Ch. 102+810, Sonar Tori Bridge",BH-03,D-12,18.0,20.34
+Two-span bridge,"Ch. 102+810, Sonar Tori Bridge",BH-03,D-22,33.0,33.01
+Two-span bridge,"Ch. 102+810, Sonar Tori Bridge",BH-03,D-33,49.5,21.25
+Two-span bridge,"Ch. 102+820, Madhabpur Bazar, RHD office",BH-04,D-2,3.0,29.94
+Two-span bridge,"Ch. 102+820, Madhabpur Bazar, RHD office",BH-04,D-13,19.5,26.29
+Two-span bridge,"Ch. 102+820, Madhabpur Bazar, RHD office",BH-04,D-23,34.5,30.59
+Two-span bridge,"Ch. 102+820, Madhabpur Bazar, RHD office",BH-04,D-31,46.5,30.07
+Two-span bridge,"Ch. 102+860, Madhabpur Bazar",BH-05,D-3,4.5,37.75
+Two-span bridge,"Ch. 102+860, Madhabpur Bazar",BH-05,D-13,19.5,29.02
+Two-span bridge,"Ch. 102+860, Madhabpur Bazar",BH-05,D-22,33.0,27.33
+Two-span bridge,"Ch. 102+860, Madhabpur Bazar",BH-05,D-31,46.5,17.16
+Two-span bridge,"Ch. 102+930, Madhabpur Bazar",BH-06,D-3,4.5,36.98
+Two-span bridge,"Ch. 102+930, Madhabpur Bazar",BH-06,D-14,21.0,25.64
+Two-span bridge,"Ch. 102+930, Madhabpur Bazar",BH-06,D-21,31.5,16.68
+Two-span bridge,"Ch. 102+930, Madhabpur Bazar",BH-06,D-29,43.5,21.43
+VUP Ch. 103+017,"Ch. 103+017, Madhabpur Bazar",BH-01,D-3,4.5,40.42
+VUP Ch. 103+017,"Ch. 103+017, Madhabpur Bazar",BH-01,D-11,16.5,24.15
+VUP Ch. 103+017,"Ch. 103+017, Madhabpur Bazar",BH-01,D-22,33.0,30.34
+VUP Ch. 103+017,"Ch. 103+017, Madhabpur Bazar",BH-01,D-30,45.0,21.78
+VUP Ch. 103+017,"Ch. 103+044.44, Madhabpur Bazar",BH-02,D-3,4.5,37.75
+VUP Ch. 103+017,"Ch. 103+044.44, Madhabpur Bazar",BH-02,D-13,19.5,29.02
+VUP Ch. 103+017,"Ch. 103+044.44, Madhabpur Bazar",BH-02,D-22,33.0,27.33
+VUP Ch. 103+017,"Ch. 103+044.44, Madhabpur Bazar",BH-02,D-31,46.5,17.16
+VUP Ch. 103+017,"Ch. 103+084.940, Madhabpur Bazar",BH-03,D-4,6.0,36.98
+VUP Ch. 103+017,"Ch. 103+084.940, Madhabpur Bazar",BH-03,D-14,21.0,25.64
+VUP Ch. 103+017,"Ch. 103+084.940, Madhabpur Bazar",BH-03,D-21,31.5,16.68
+VUP Ch. 103+017,"Ch. 103+084.940, Madhabpur Bazar",BH-03,D-29,43.5,21.43
+VUP Ch. 103+017,"Ch. 103+112.380, Madhabpur Bazar",BH-04,D-7,10.5,22.74
+VUP Ch. 103+017,"Ch. 103+112.380, Madhabpur Bazar",BH-04,D-12,18.0,20.95
+VUP Ch. 103+017,"Ch. 103+112.380, Madhabpur Bazar",BH-04,D-17,25.5,21.05
+VUP Ch. 103+017,"Ch. 103+112.380, Madhabpur Bazar",BH-04,D-27,40.5,19.9
+Culvert BC-03,"Ch. 98+952.710, Islampur Bazar",BH-01,D-5,7.5,22.56
+Culvert BC-03,"Ch. 98+952.710, Islampur Bazar",BH-01,D-11,16.5,20.58
+Culvert BC-03,"Ch. 98+952.710, Islampur Bazar",BH-01,D-19,28.5,22.42
+Culvert BC-03,"Ch. 98+952.710, Islampur Bazar",BH-01,D-29,43.5,20.56
+Culvert BC-03,"Ch. 98+980.150, Islampur Bazar",BH-02,D-5,7.5,30.84
+Culvert BC-03,"Ch. 98+980.150, Islampur Bazar",BH-02,D-15,22.5,29.52
+Culvert BC-03,"Ch. 98+980.150, Islampur Bazar",BH-02,D-20,30.0,26.5
+Culvert BC-03,"Ch. 98+980.150, Islampur Bazar",BH-02,D-27,40.5,29.18
+VUP (DS-06),"Ch. 103+033, Madhabpur Bazar",BH-01,D-4,6.0,53.11
+VUP (DS-06),"Ch. 103+033, Madhabpur Bazar",BH-01,D-11,16.5,21.57
+VUP (DS-06),"Ch. 103+033, Madhabpur Bazar",BH-01,D-24,36.0,27.89
+VUP (DS-06),"Ch. 103+033, Madhabpur Bazar",BH-01,D-30,45.0,21.6
+VUP (DS-06),"Ch. 103+061, Madhabpur Bazar",BH-02,D-6,9.0,37.13
+VUP (DS-06),"Ch. 103+061, Madhabpur Bazar",BH-02,D-11,16.5,25.15
+VUP (DS-06),"Ch. 103+061, Madhabpur Bazar",BH-02,D-20,30.0,31.92
+VUP (DS-06),"Ch. 103+061, Madhabpur Bazar",BH-02,D-34,51.0,19.83
+VUP (DS-06),"Ch. 103+101, Madhabpur Bazar",BH-03,D-2,3.0,27.48
+VUP (DS-06),"Ch. 103+101, Madhabpur Bazar",BH-03,D-12,18.0,20.34
+VUP (DS-06),"Ch. 103+101, Madhabpur Bazar",BH-03,D-22,33.0,33.01
+VUP (DS-06),"Ch. 103+101, Madhabpur Bazar",BH-03,D-33,49.5,21.25
+VUP (DS-06),"Ch. 103+129, Madhabpur Bazar",BH-04,D-3,4.5,30.39
+VUP (DS-06),"Ch. 103+129, Madhabpur Bazar",BH-04,D-10,15.0,28.51
+VUP (DS-06),"Ch. 103+129, Madhabpur Bazar",BH-04,D-21,31.5,31.39
+VUP (DS-06),"Ch. 103+129, Madhabpur Bazar",BH-04,D-33,49.5,29.17

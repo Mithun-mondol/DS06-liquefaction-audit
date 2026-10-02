@@ -1,0 +1,161 @@
+SECTION 3.1 CENSUS  computation rows 390; with a conclusion 390; with a conclusion and a FOS 366
+  TABLE 3  L   FOS<1  148   FOS>=1   0
+  TABLE 3  NL  FOS<1  216   FOS>=1   2
+  overridden 216 of 366 (59.0 %); FOS 0.13-0.83, median 0.27; depth 1.5-19.5 m; N 1-19 (median 5)
+  boreholes with an override: 30 of 30
+  classes: overridden {'CL': 216}; declared liquefiable {'ML': 93, 'SP': 4, 'SM': 44, '(none)': 4, 'SC': 2, 'OL': 1}
+  non-liquefiable with FOS >= 1: Bridge 32 BH-02 18.0 m CL FOS 1.02, Bridge 35 BH-01 15.0 m ML FOS 1.09
+  declared liquefiable per report: {'Bridge 32': 9, 'Bridge 33': 21, 'Bridge 34': 3, 'Bridge 35': 7, 'Bridge 36': 8, 'Bridge 37': 17, 'Culvert BC-03': 3, 'Two-span bridge': 23, 'VUP (DS-06)': 26, 'VUP Ch. 103+017': 31}
+
+TABLE 9 - class used vs class from the sample's own limits
+  Bridge 32        BH-01   6.0 m  used CL  own ML  (LL 37.9, PI 9.8, A-line 13.1)  fines 97.15%  FOS 0.25  NL
+  Bridge 35        BH-01   7.5 m  used CL  own ML  (LL 39.0, PI 11.0, A-line 13.9)  fines 99.02%  FOS 0.16  NL
+  Bridge 36        BH-01   6.0 m  used CL  own MH  (LL 55.1, PI 23.3, A-line 25.7)  fines 96.35%  FOS 0.25  NL
+  Bridge 36        BH-02   6.0 m  used CL  own ML  (LL 33.4, PI 9.5, A-line 9.8)  fines 99.57%  FOS 0.25  NL
+  Two-span bridge  BH-04  16.5 m  used CL  own ML  (LL 38.0, PI 10.2, A-line 13.1)  fines 98.01%  FOS 0.43  NL
+  VUP Ch. 103+017  BH-02  16.5 m  used ML  own CL  (LL 35.4, PI 14.5, A-line 11.2)  fines 93.24%  FOS 0.67  L
+  VUP Ch. 103+017  BH-04  12.0 m  used CL  own ML  (LL 36.3, PI 4.5, A-line 11.9)  fines 93.24%  FOS 0.29  NL
+  -> 7 of 25 samples contradicted; all fine-grained: True
+  Boulanger & Idriss (2006): clay-like (PI>=7) 24, sand-like 1
+
+TABLE 5 - coverage by distinct sample: moisture 135 (120 sheets + 135 summary, 120 shared); liquid limit 25 (23 + 19, 17 shared); both on one sample 2; moisture sheets sharing a sample with Atterberg sheets 0
+  liquid-limit samples at analysed depths 25 of 25; at overridden depths 24
+  Boulanger & Idriss at the overridden depths with a PI: clay-like 23, sand-like 1; PI exactly 12 or 18: [12.0]
+
+TABLE 6 - index data at the 216 overridden depths, and what they support
+  liquid limit measured                                  24  (11.1 %)
+    of which >= 35 %                                     21  (9.7 %)
+  clay fraction measured                                 42  (19.4 %)
+    of which >= 15 %                                     21  (9.7 %)
+  moisture content measured                              32  (14.8 %)
+  LL and w_n on the same sample                           2  (0.9 %)
+  verdict supported by a measured failing condition      39  (18.1 %)
+  index data measured, none supporting the verdict       24  (11.1 %)
+  neither a liquid limit nor a clay fraction            153  (70.8 %)
+  no plasticity index                                   192  (88.9 %)
+
+LL-THRESHOLD SENSITIVITY (supported = LL >= threshold, or clay >= 15 %)
+  threshold 35: supported 39 of 216;  by LL 21
+  threshold 36: supported 36 of 216;  by LL 17
+  threshold 37: supported 35 of 216;  by LL 16
+  threshold 38: supported 34 of 216;  by LL 15
+  threshold 39: supported 32 of 216;  by LL 11
+  threshold 40: supported 28 of 216;  by LL  7
+
+CLASS RULE reproduces 366 of 366 verdicts
+  declared liquefiable although a measured value fails a condition of the declared criterion: 4
+    Bridge 37        BH-01  13.5 m  ML  LL None  clay 28.28  FOS 0.63
+    VUP Ch. 103+017  BH-02  16.5 m  ML  LL 35.35  clay None  FOS 0.67
+    VUP Ch. 103+017  BH-02  18.0 m  ML  LL None  clay 18.39  FOS 0.48
+    VUP Ch. 103+017  BH-03  18.0 m  ML  LL None  clay 17.92  FOS 0.68
+
+CYCLIC-SOFTENING DATA at the 216 overridden depths: undrained strength (UCS) at 21, consolidation (Cc or e0) at 21, both at 19
+  of the 24 overridden depths with a liquid limit: LL >= 35 at 21, within 0.6 of 35 at 4, CL by own limits at 18
+
+VALIDATION  CRR_M7.5 exact at 2 dp: 321 of 322;  (N1)60cs reproduced: 334 of 334
+
+TABLE 10 - substitutions through the reconstructed chain
+  None - baseline reproduced                         n=310  ratio x1.000  overridden 0.285 -> 0.281  >=1: 0 of 190
+  [arithmetic] alpha, FC>=35: 0.50 -> 5.0            n=310  ratio x1.347  overridden 0.285 -> 0.395  >=1: 3 of 190
+  Water table 0.00 m -> measured                     n=256  ratio x1.353  overridden 0.280 -> 0.397  >=1: 0 of 176
+  Design magnitude M 6.5 -> 7.5                      n=310  ratio x0.693  overridden 0.285 -> 0.195  >=1: 0 of 190
+  Design magnitude M 6.5 -> 8.0                      n=310  ratio x0.588  overridden 0.285 -> 0.165  >=1: 0 of 190
+  Design magnitude M 6.5 -> 8.7                      n=310  ratio x0.474  overridden 0.285 -> 0.133  >=1: 0 of 190
+  Energy ratio 70% -> 78% (auto-trip upper bound)    n=310  ratio x1.086  overridden 0.285 -> 0.301  >=1: 0 of 190
+  Energy ratio 70% -> 60% (donut upper bound)        n=310  ratio x0.894  overridden 0.285 -> 0.255  >=1: 0 of 190
+  Energy ratio 70% -> 48% (auto-trip lower bound)    n=310  ratio x0.772  overridden 0.285 -> 0.224  >=1: 0 of 190
+  Energy ratio 70% -> 30% (donut lower bound)        n=310  ratio x0.602  overridden 0.285 -> 0.177  >=1: 0 of 190
+  alpha + water table (both conservative elements)   n=256  ratio x1.907  overridden 0.280 -> 0.573  >=1: 6 of 176
+  alpha + water table + M 8.0                        n=256  ratio x1.121  overridden 0.280 -> 0.337  >=1: 0 of 176
+  alpha + water table + M 8.7                        n=256  ratio x0.904  overridden 0.280 -> 0.272  >=1: 0 of 176
+  alpha + water table + M 8.0 + ER 48%               n=256  ratio x0.933  overridden 0.280 -> 0.293  >=1: 0 of 176
+  alpha + water table + M 8.7 + ER 48%               n=256  ratio x0.753  overridden 0.280 -> 0.236  >=1: 0 of 176
+  Water table + M 8.0 (alpha as printed)             n=256  ratio x0.795  overridden 0.280 -> 0.233  >=1: 0 of 176
+
+POPULATION  310 of 366 depths, 190 of 216 overridden. Excluded 56: Bridge 33, read visually without intermediate values, 44 (23 overridden); text-layer lacking C_E or fines content 12 (9 declared liquefiable, 3 overridden)
+  measured water levels in the population: 0.00-5.79 m; lowest non-zero 0.65 m; overridden depths at a borehole recording 0.00 m: 12
+  ABOVE THE MEASURED LEVEL (unsaturated under the water-table substitution): 54 of 310 depths, 14 of 190 overridden (depths 1.5-4.5 m, levels 3.60-5.59 m). Every water-table case below is computed on the 256 depths below the level (176 overridden).
+
+Water table, CSR only: 5 of 176 reach FOS>=1; full treatment: 0 (max 0.972)
+
+TABLE 11 - overridden depths reaching FOS>=1, a_max = 0.36 g (cells: ER 78 / 70 / 60 / 48 / 30 %). Water-table cases count the 176 overridden depths below the measured level; the other 14 are above it.
+  alpha + water table  M 6.5: 13 / 6 / 3 / 0 / 0   M 7.0: 3 / 3 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  alpha only           M 6.5: 5 / 3 / 0 / 0 / 0   M 7.0: 2 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  water table only     M 6.5: 3 / 0 / 0 / 0 / 0   M 7.0: 0 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  neither              M 6.5: 0 / 0 / 0 / 0 / 0   M 7.0: 0 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+
+TABLE 11 - overridden depths reaching FOS>=1, a_max = 0.324 g (cells: ER 78 / 70 / 60 / 48 / 30 %). Water-table cases count the 176 overridden depths below the measured level; the other 14 are above it.
+  alpha + water table  M 6.5: 21 / 14 / 6 / 2 / 0   M 7.0: 8 / 3 / 1 / 0 / 0   M 7.5: 3 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  alpha only           M 6.5: 7 / 4 / 0 / 0 / 0   M 7.0: 4 / 1 / 0 / 0 / 0   M 7.5: 2 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  water table only     M 6.5: 3 / 3 / 0 / 0 / 0   M 7.0: 1 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  neither              M 6.5: 2 / 0 / 0 / 0 / 0   M 7.0: 0 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+
+TABLE 11 - overridden depths reaching FOS>=1, a_max = 0.276 g (cells: ER 78 / 70 / 60 / 48 / 30 %). Water-table cases count the 176 overridden depths below the measured level; the other 14 are above it.
+  alpha + water table  M 6.5: 51 / 35 / 22 / 7 / 0   M 7.0: 17 / 12 / 4 / 0 / 0   M 7.5: 7 / 3 / 0 / 0 / 0   M 8.0: 3 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  alpha only           M 6.5: 16 / 7 / 4 / 0 / 0   M 7.0: 6 / 4 / 0 / 0 / 0   M 7.5: 4 / 0 / 0 / 0 / 0   M 8.0: 2 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  water table only     M 6.5: 12 / 6 / 3 / 0 / 0   M 7.0: 3 / 3 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  neither              M 6.5: 5 / 3 / 0 / 0 / 0   M 7.0: 1 / 0 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+
+TABLE 11 - overridden depths reaching FOS>=1, a_max = 0.24 g (cells: ER 78 / 70 / 60 / 48 / 30 %). Water-table cases count the 176 overridden depths below the measured level; the other 14 are above it.
+  alpha + water table  M 6.5: 74 / 60 / 47 / 24 / 3   M 7.0: 41 / 32 / 13 / 4 / 0   M 7.5: 14 / 9 / 3 / 0 / 0   M 8.0: 5 / 3 / 0 / 0 / 0   M 8.7: 1 / 0 / 0 / 0 / 0
+  alpha only           M 6.5: 23 / 18 / 7 / 3 / 0   M 7.0: 13 / 7 / 3 / 0 / 0   M 7.5: 5 / 3 / 0 / 0 / 0   M 8.0: 4 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  water table only     M 6.5: 22 / 13 / 6 / 3 / 0   M 7.0: 9 / 3 / 3 / 0 / 0   M 7.5: 3 / 1 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+  neither              M 6.5: 7 / 5 / 2 / 0 / 0   M 7.0: 4 / 1 / 0 / 0 / 0   M 7.5: 0 / 0 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0   M 8.7: 0 / 0 / 0 / 0 / 0
+
+MSF SENSITIVITY  M 8.0, both conservative elements corrected: median overridden FOS 0.337 at 0.36 g, 0.505 at 0.24 g -> MSF would need x2.97 / x1.98 for the median depth to reach 1;  MSF(7.5)/MSF(8.0) = 1.180
+TABLE 13  a_max 0.20 g: 204 of 216 still FOS<1 (94.4 %)
+TABLE 13  a_max 0.15 g: 180 of 216 still FOS<1 (83.3 %)
+TABLE 13  a_max 0.10 g: 112 of 216 still FOS<1 (51.9 %)
+TABLE 13  a_max 0.05 g: 1 of 216 still FOS<1 (0.5 %)
+
+Reported arithmetic at 0.24 g: 211 of 216 overridden depths still FOS<1; a_max for FOS=1 median 0.095 g (range 0.047-0.299)
+
+MEDIAN a_max (g) FOR FOS = 1: 190 recomputable overridden depths; the water-table row uses the 176 below the measured level
+  reported arithmetic    M 6.5: 0.101   M 8.0: 0.059   M 8.7: 0.048
+  alpha corrected        M 6.5: 0.142   M 8.0: 0.084   M 8.7: 0.067
+  alpha + water table    M 6.5: 0.206   M 8.0: 0.121   M 8.7: 0.098
+
+INTERACTION - joint vs product of single-factor median ratios (depths below the measured level; E = ER 48 %)
+  W+M      joint x0.795  product x0.795  interaction  +0.0%
+  a+M      joint x0.796  product x0.796  interaction  +0.0%
+  a+W      joint x1.907  product x1.833  interaction  +4.1%
+  a+E      joint x1.085  product x1.035  interaction  +4.9%
+  W+E      joint x1.094  product x1.034  interaction  +5.8%
+  a+W+M    joint x1.121  product x1.077  interaction  +4.1%
+  W+M+E    joint x0.643  product x0.608  interaction  +5.8%
+  a+W+M+E  joint x0.933  product x0.823  interaction +13.4%
+
+a_max for FOS=1 on these 190 overridden depths: reported arithmetic median 0.103 g; alpha corrected median 0.142 g (range 0.076-0.393)
+
+TABLE 12 - SCENARIO DEMAND a_max / MSF (MSF = 10^2.24 / M^2.56, the reports' own relation)
+  Rahman et al. (2015), Dhaka          M 7.0  a_max 0.15 g  MSF 1.193  a_max/MSF 0.126  (x0.50 the reports')
+  Ansary et al. (2024), Dhaka          M 7.5  a_max 0.21 g  MSF 1.000  a_max/MSF 0.210  (x0.84 the reports')
+  Rahman & Siddiqua (2017), lower end  M 7.5  a_max 0.15 g  MSF 1.000  a_max/MSF 0.150  (x0.60 the reports')
+  Rahman & Siddiqua (2017), upper end  M 7.5  a_max 0.25 g  MSF 1.000  a_max/MSF 0.250  (x1.00 the reports')
+  the reports                          M 6.5  a_max 0.36 g  MSF 1.442  a_max/MSF 0.250  (x1.00 the reports')
+  Hossain et al. (2020), Moulvibazar   M 8.0  a_max 0.36 g  MSF 0.847  a_max/MSF 0.425  (x1.70 the reports')
+
+K_SIGMA (text: required for depth > 15 m; K = min(1, (sigma'/10)^(f-1)); sheets use 1)
+  f = 0.7: as reported, FOS x0.935-x0.986 at the 58 depths below 15 m in the population
+  f = 0.7, alpha + water table, a_max 0.36 g: M 6.5: 10 / 4 / 1 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0
+  f = 0.7, alpha + water table, a_max 0.24 g: M 6.5: 67 / 56 / 43 / 22 / 1   M 8.0: 4 / 1 / 0 / 0 / 0
+  f = 0.8: as reported, FOS x0.956-x0.991 at the 58 depths below 15 m in the population
+  f = 0.8, alpha + water table, a_max 0.36 g: M 6.5: 12 / 4 / 1 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0
+  f = 0.8, alpha + water table, a_max 0.24 g: M 6.5: 69 / 57 / 43 / 22 / 1   M 8.0: 4 / 2 / 0 / 0 / 0
+
+SUPPORT UNDER THE CODE'S THRESHOLDS (LL > 36 %, or clay > 10 %): 45 of 216 (LL 17, clay 30, both 2); declared criterion: 39
+
+MATCHING ACCELERATION  a_max at which M produces the reports' demand (0.36 g at M 6.5)
+  M  7.0: 0.298 g
+  M  7.5: 0.250 g
+  M  8.0: 0.212 g
+  M 8.15: 0.202 g
+  M 8.35: 0.190 g
+  M  8.4: 0.187 g
+  M  8.7: 0.171 g
+
+K_SIGMA BY STRESS (wherever sigma' > Pa = 10 t/m^2; capped at 1)
+  f = 0.7, alpha + water table, a_max 0.36 g: M 6.5: 7 / 3 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0
+  f = 0.7, alpha + water table, a_max 0.24 g: M 6.5: 60 / 47 / 35 / 18 / 0   M 8.0: 4 / 0 / 0 / 0 / 0
+  f = 0.8, alpha + water table, a_max 0.36 g: M 6.5: 10 / 3 / 0 / 0 / 0   M 8.0: 0 / 0 / 0 / 0 / 0
+  f = 0.8, alpha + water table, a_max 0.24 g: M 6.5: 64 / 53 / 37 / 19 / 0   M 8.0: 4 / 2 / 0 / 0 / 0

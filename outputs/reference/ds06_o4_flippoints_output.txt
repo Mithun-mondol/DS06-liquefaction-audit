@@ -1,0 +1,80 @@
+==============================================================================
+THE PLAUSIBLE wn ENVELOPE (item 14) - stated from data, not assumed
+==============================================================================
+  measured wn on CL/ML samples above 20 m, n=52: 18.8-47.8%, median 33.3%
+  w_sat = e0/Gs, n=12: 28.7-43.8%, median 34.4%
+  ENVELOPE ADOPTED: 18.8% - 47.8%  (union of the two, widest defensible reading)
+  Report results against this envelope AND against the flip points themselves,
+  so a reader who prefers a different envelope can re-read the table.
+
+==============================================================================
+FLIP POINTS ON THE 24 OVERRIDDEN DEPTHS THAT CARRY A LIQUID LIMIT
+==============================================================================
+report / BH / depth                                    FOS    LL    PI   onset      wn      verdict
+Bridge 32                      BH-01     6.0 m        0.25  37.9   9.8    32.2       -     needs wn
+Bridge 32                      BH-02     9.0 m        0.22  33.0  11.0    28.1       -     needs wn
+Bridge 34                      BH-01    10.5 m        0.19  45.0  20.0       -       - agree (no wn)
+Bridge 34                      BH-02    12.0 m        0.19  46.0  22.0       -       - agree (no wn)
+Bridge 34                      BH-02    18.0 m        0.20  24.0  12.0    19.2       -     needs wn
+Bridge 35                      BH-01     7.5 m        0.16  39.0  11.0    33.1       -     needs wn
+Bridge 35                      BH-02     9.0 m        0.19  47.0  24.0       -       - agree (no wn)
+Bridge 36                      BH-01     6.0 m        0.25  55.1  23.3       -       - agree (no wn)
+Bridge 36                      BH-02     6.0 m        0.25  33.4   9.5    28.4       -     needs wn
+Culvert BC-03                  BH-01     6.0 m        0.25  39.8  16.7    31.9       -     needs wn
+Culvert BC-03                  BH-02    16.5 m        0.59  38.0  15.0    30.4       -     needs wn
+Two-span bridge                BH-01    18.0 m        0.34  39.3  22.1       -       - agree (no wn)
+Two-span bridge                BH-02     7.5 m        0.20  35.4  19.5       -       - agree (no wn)
+Two-span bridge                BH-03    16.5 m        0.51  42.0  24.2       -       - agree (no wn)
+Two-span bridge                BH-04    16.5 m        0.43  38.0  10.2    32.3       -     needs wn
+Two-span bridge                BH-05    16.5 m        0.33  35.6  20.8       -       - agree (no wn)
+Two-span bridge                BH-06    18.0 m        0.28  43.2  22.6       -       - agree (no wn)
+VUP (DS-06)                    BH-01    15.0 m        0.36  39.0  19.3       -   33.60 agree (no wn)
+VUP (DS-06)                    BH-02     7.5 m        0.31  35.4  17.7    28.3       -     needs wn
+VUP (DS-06)                    BH-03    16.5 m        0.55  42.0  23.6       -       - agree (no wn)
+VUP (DS-06)                    BH-04    18.0 m        0.41  38.0  20.9       -       - agree (no wn)
+VUP Ch. 103+017                BH-01    12.0 m        0.35  35.4  15.7    28.3       -     needs wn
+VUP Ch. 103+017                BH-03     9.0 m        0.41  38.1  13.6    30.5   36.51     DISAGREE
+VUP Ch. 103+017                BH-04    12.0 m        0.29  36.3   4.5    30.9       -     needs wn
+
+  settled by PI > 18 - both criteria agree, wn irrelevant : 12
+  resolved by a measured wn, criteria DISAGREE            : 1
+  resolved by a measured wn, criteria agree               : 0
+  INDETERMINATE - verdict hinges on the unmeasured wn     : 11
+
+==============================================================================
+H1: is the verdict indeterminate across the plausible envelope?
+==============================================================================
+  envelope 18.8% - 47.8%
+
+report / BH / depth                                     LL    PI   onset  position
+Bridge 32                      BH-01     6.0 m        37.9   9.8    32.2  INSIDE envelope -> genuinely indeterminate
+Bridge 32                      BH-02     9.0 m        33.0  11.0    28.1  INSIDE envelope -> genuinely indeterminate
+Bridge 34                      BH-02    18.0 m        24.0  12.0    19.2  INSIDE envelope -> genuinely indeterminate
+Bridge 35                      BH-01     7.5 m        39.0  11.0    33.1  INSIDE envelope -> genuinely indeterminate
+Bridge 36                      BH-02     6.0 m        33.4   9.5    28.4  INSIDE envelope -> genuinely indeterminate
+Culvert BC-03                  BH-01     6.0 m        39.8  16.7    31.9  INSIDE envelope -> genuinely indeterminate
+Culvert BC-03                  BH-02    16.5 m        38.0  15.0    30.4  INSIDE envelope -> genuinely indeterminate
+Two-span bridge                BH-04    16.5 m        38.0  10.2    32.3  INSIDE envelope -> genuinely indeterminate
+VUP (DS-06)                    BH-02     7.5 m        35.4  17.7    28.3  INSIDE envelope -> genuinely indeterminate
+VUP Ch. 103+017                BH-01    12.0 m        35.4  15.7    28.3  INSIDE envelope -> genuinely indeterminate
+VUP Ch. 103+017                BH-04    12.0 m        36.3   4.5    30.9  INSIDE envelope -> genuinely indeterminate
+
+  flip point INSIDE the plausible envelope (indeterminate) : 11 of 11
+  flip point BELOW  (disagree whatever wn turns out to be) : 0 of 11
+  flip point ABOVE  (agree whatever wn turns out to be)    : 0 of 11
+
+  ==> 11 of the 11 indeterminate overridden depths would be
+      called susceptible by Bray & Sancio somewhere in the plausible wn
+      range; 0 of them for EVERY plausible wn.
+  ==> H1 verdict: see the counts above. 11 depths are indeterminate in
+      the strict sense (the flip point sits inside the envelope).
+
+==============================================================================
+THE WORKED EXAMPLE FOR THE PAPER
+==============================================================================
+  VUP Ch. 103+017
+  BH-03 at 9.0 m, strata CL, the report's own FOS = 0.41
+    measured wn = 36.51%   LL = 38.13   PI = 13.63   wn/LL = 0.958
+    Chinese Criteria  -> non-liquefiable   (the verdict the report used)
+    Bray & Sancio     -> susceptible       (onset at wn = 30.5%)
+    Every quantity here is MEASURED. One depth carrying the whole argument.

@@ -1,0 +1,9 @@
+TABLE 1 - dataset checks recomputed from the public CSVs
+  1. N = blow2 + blow3 (text layer): 865 / 865
+  1. N = blow2 + blow3 (scans): 120 / 120
+  2. laboratory-summary N = borelog N: 925 / 925
+  3. computation-sheet N = borelog N (Bridge 33, read visually): 52 / 52
+  4. CSR re-derived (text layer): 158 checked, 0 mismatches
+  4. FOS = CRR / CSR re-derived (text layer): 322 checked, 0 mismatches
+  4. (N1)60cs = alpha + beta (N1)60 re-derived (text layer): 26 checked, 0 mismatches
+  5. r_d reproduced by Youd et al. (2001, Eq. 2) at 2 dp: 390 / 390

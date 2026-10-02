@@ -1,0 +1,31 @@
+Fig 1 population: 366 depths; overridden 216
+  NL: CL 217, other 1   L: CL 0, other 148   NL with FOS>=1: [('CL', '1.02'), ('ML', '1.09')]
+
+Fig 2 / Objective 4, CORRECTED onset t*LL:
+  plausible range 18.8-47.8%, e0/Gs range 28.7-43.8%, median measured w_n 33.3%
+  Bridge 34         BH-02  18.0 m  LL  24.0 PI  12.0 t 0.80  onset 19.20%   (was 21.6 - CHANGED)
+  Bridge 32         BH-02   9.0 m  LL  33.0 PI  11.0 t 0.85  onset 28.05%   (was 29.7 - CHANGED)
+  VUP Ch. 103+017   BH-01  12.0 m  LL  35.4 PI  15.7 t 0.80  onset 28.32%
+  VUP (DS-06)       BH-02   7.5 m  LL  35.4 PI  17.7 t 0.80  onset 28.32%
+  Bridge 36         BH-02   6.0 m  LL  33.4 PI   9.5 t 0.85  onset 28.36%   (was 30.0 - CHANGED)
+  Culvert BC-03     BH-02  16.5 m  LL  38.0 PI  15.0 t 0.80  onset 30.44%
+  VUP Ch. 103+017   BH-04  12.0 m  LL  36.3 PI   4.5 t 0.85  onset 30.88%
+  Culvert BC-03     BH-01   6.0 m  LL  39.8 PI  16.7 t 0.80  onset 31.86%
+  Bridge 32         BH-01   6.0 m  LL  37.9 PI   9.8 t 0.85  onset 32.24%
+  Two-span bridge   BH-04  16.5 m  LL  38.0 PI  10.2 t 0.85  onset 32.31%
+  Bridge 35         BH-01   7.5 m  LL  39.0 PI  11.0 t 0.85  onset 33.15%
+  MEASURED: VUP Ch. 103+017 BH-03 9.0 m onset 30.50%, w_n 36.51% -> DISAGREE
+
+  envelope sensitivity (corrected):
+    plausible         18.8- 47.8%: indeterminate 11, always contradicted 0, always supported 0
+    e0/Gs range       28.7- 43.8%: indeterminate 6, always contradicted 5, always supported 0
+    25-35%            25.0- 35.0%: indeterminate 10, always contradicted 1, always supported 0
+    30-35%            30.0- 35.0%: indeterminate 6, always contradicted 5, always supported 0
+
+Fig 3: 216 overridden depths; a_max for FOS=1 min 0.047 median 0.095 max 0.299 g
+  at 0.05 g: 1 of 216 (0.5%) still FOS < 1
+  at 0.10 g: 112 of 216 (51.9%) still FOS < 1
+  at 0.15 g: 180 of 216 (83.3%) still FOS < 1
+  at 0.20 g: 204 of 216 (94.4%) still FOS < 1
+
+wrote Fig1, Fig2, Fig3 (.pdf + .png + .eps)

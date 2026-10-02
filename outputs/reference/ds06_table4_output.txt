@@ -1,0 +1,6 @@
+TABLE 4 - the four abutment boreholes of Bridge 33
+  borehole     analysed declared L overridden  FOS range of the overrides
+  AB-01 (L/S)        11          8          3  0.32-0.38
+  AB-01 (R/S)        12          4          8  0.16-0.30
+  AB-02 (L/S)        11          9          2  0.20-0.25
+  AB-02 (R/S)        10          0         10  0.16-0.26

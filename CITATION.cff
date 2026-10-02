@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the associated article."
+title: "DS-06 liquefaction audit: dataset and analysis scripts"
+version: 1.0.0
+type: dataset
+authors:
+  - family-names: Mondol
+    given-names: Mithun
+    orcid: "https://orcid.org/0000-0002-7527-0369"
+    affiliation: "Saitama University"
+repository-code: "https://github.com/Mithun-mondol/ds06-liquefaction-audit"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - liquefaction susceptibility
+  - Chinese Criteria
+  - fine-grained soils
+  - site investigation
+  - design review
+  - Bangladesh
+preferred-citation:
+  type: article
+  title: "What the site investigation can and cannot support: an audit of design-stage liquefaction assessment on a Bangladeshi highway project"
+  authors:
+    - family-names: Mondol
+      given-names: Mithun
+      orcid: "https://orcid.org/0000-0002-7527-0369"
+  journal: "Bulletin of Earthquake Engineering"
+  status: submitted

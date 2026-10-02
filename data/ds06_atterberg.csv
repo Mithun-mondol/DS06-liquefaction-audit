@@ -1,0 +1,24 @@
+report,structure,borehole,sample,depth_m,visual_class,LL_pct,PL_pct,PI_pct,uscs
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-01,D-4,6.0,Grayish Silty Clay,38.0,28.0,10.0,ML
+Bridge 32,"Madhabpur Kachari Bridge, L/S",BH-02,D-6,9.0,Grayish Silty Clay,33.0,22.0,11.0,CL
+Bridge 34,"Undiura Bridge, R/S",BH-01,D-7,10.5,Grayish Silty Clay,45.0,25.0,20.0,CL
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-8,12.0,Grayish Silty Clay,46.0,24.0,22.0,CL
+Bridge 34,"Undiura Bridge, R/S",BH-02,D-12,18.0,Grayish Silty Clay,24.0,12.0,12.0,CL
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-01,D-5,7.5,Grayish Silty Clay,39.0,27.0,11.0,ML
+Bridge 35,"Dokkhin Bedhosa Bridge, R/S",BH-02,D-6,9.0,Grayish Silty Clay,47.0,23.0,24.0,CL
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-01,D-4,6.0,Grayish Silty Clay,55.0,32.0,23.0,MH
+Bridge 36,"Dokkhin Bejura Bridge, R/S",BH-02,D-4,6.0,Grayish Silty Clay,33.0,24.0,10.0,ML
+Two-span bridge,Two-span bridge,BH-01,D-12,18.0,Gray silty clay,39.0,17.0,22.0,CL
+Two-span bridge,Two-span bridge,BH-02,D-5,7.5,Gray silty clay,35.0,16.0,19.0,CL
+Two-span bridge,Two-span bridge,BH-03,D-11,16.5,Gray silty clay,42.0,18.0,24.0,CL
+Two-span bridge,Two-span bridge,BH-04,D-11,16.5,Gray silty clay,38.0,28.0,10.0,ML
+Two-span bridge,Two-span bridge,BH-05,D-11,16.5,Gray silty clay,36.0,15.0,21.0,CL
+Two-span bridge,Two-span bridge,BH-06,D-12,18.0,Gray silty clay,43.0,21.0,23.0,CL
+VUP Ch. 103+017,VUP Ch. 103+017,BH-01,D-8,12.0,Gray silty clay,35.0,20.0,16.0,CL
+VUP Ch. 103+017,VUP Ch. 103+017,BH-02,D-11,16.5,Gray silty clay,35.0,21.0,15.0,CL
+VUP Ch. 103+017,VUP Ch. 103+017,BH-03,D-6,9.0,Gray silty clay,38.0,24.0,14.0,CL
+VUP Ch. 103+017,VUP Ch. 103+017,BH-04,D-8,12.0,Gray silty clay,36.0,32.0,4.0,ML
+VUP (DS-06),VUP (DS-06),BH-01,D-10,15.0,Gray silty clay,39.0,20.0,19.0,CL
+VUP (DS-06),VUP (DS-06),BH-02,D-5,7.5,Gray silty clay,35.0,18.0,18.0,CL
+VUP (DS-06),VUP (DS-06),BH-03,D-11,16.5,Gray silty clay,42.0,18.0,24.0,CL
+VUP (DS-06),VUP (DS-06),BH-04,D-12,18.0,Gray silty clay,38.0,17.0,21.0,CL

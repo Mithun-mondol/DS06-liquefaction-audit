@@ -1,0 +1,59 @@
+==============================================================================
+1. BOREHOLE PAIRS WITH >= 3 IDENTICAL VALUES AT THE SAME DEPTH
+==============================================================================
+  Bridge 36 BH-01 (Ch. 109+324.300, drilled 29/07/2023)  <->  VUP Ch. 103+017 BH-04 (Ch. 103+112.380, drilled 20/08/25)
+     identical at the same depth: 4  10.5 m nmc_pct 22.74, 18.0 m nmc_pct 20.95, 25.5 m nmc_pct 21.05, 40.5 m nmc_pct 19.90
+     SPT N equal at 1 of 29 common depths
+  Two-span bridge BH-02 (Ch. 102+770, drilled 06/02/2025)  <->  VUP Ch. 103+017 BH-01 (Ch. 103+017, drilled 14/08/25)
+     identical at the same depth: 6  4.5 m nmc_pct 40.42, 12.0 m sand_pct 5.74, 16.5 m nmc_pct 24.15, 31.5 m clay_pct 11.50, 33.0 m nmc_pct 30.34, 45.0 m nmc_pct 21.78
+     SPT N equal at 7 of 33 common depths
+  Two-span bridge BH-03 (Ch. 102+810, drilled 02/02/2025)  <->  VUP (DS-06) BH-03 (Ch. 103+101, drilled 21/03/2025)
+     identical at the same depth: 10  3.0 m nmc_pct 27.48, 9.0 m nmc_pct 47.76, 9.0 m unit_weight_kNm3 16.92, 9.0 m Cc 0.310, 9.0 m Cs 0.025, 9.0 m e0 1.175, 16.5 m LL_pct 42.05, 18.0 m nmc_pct 20.34, 33.0 m nmc_pct 33.01, 49.5 m nmc_pct 21.25
+     SPT N equal at 1 of 21 common depths
+  Two-span bridge BH-05 (Ch. 102+860, drilled 26/01/2025)  <->  VUP Ch. 103+017 BH-02 (Ch. 103+044.44, drilled 16/08/25)
+     identical at the same depth: 6  4.5 m nmc_pct 37.75, 19.5 m nmc_pct 29.02, 28.5 m sand_pct 83.77, 28.5 m unit_weight_kNm3 17.93, 33.0 m nmc_pct 27.33, 46.5 m nmc_pct 17.16
+     SPT N equal at 1 of 21 common depths
+  Two-span bridge BH-06 (Ch. 102+930, drilled 22/01/2025)  <->  VUP Ch. 103+017 BH-03 (Ch. 103+084.940, drilled 18/08/25)
+     identical at the same depth: 3  21.0 m nmc_pct 25.64, 31.5 m nmc_pct 16.68, 43.5 m nmc_pct 21.43
+     SPT N equal at 6 of 33 common depths
+  -> 5 borehole pairs
+
+==============================================================================
+2. SAMPLE PAIRS (DIFFERENT BOREHOLES) SHARING >= 2 IDENTICAL RESULTS: 11
+==============================================================================
+  Culvert BC-03 BH-01 55.5 m  <->  VUP Ch. 103+017 BH-01 45.0 m   sand_pct 81.74, unit_weight_kNm3 18.22
+  Two-span bridge BH-02 3.0 m  <->  VUP Ch. 103+017 BH-01 4.5 m   clay_pct 14.37, sand_pct 1.39   [both overridden]
+  Two-span bridge BH-02 19.5 m  <->  VUP Ch. 103+017 BH-01 21.0 m   sand_pct 84.79, unit_weight_kNm3 16.84
+  Two-span bridge BH-03 9.0 m  <->  VUP (DS-06) BH-03 9.0 m   Cc 0.310, Cs 0.025, e0 1.175, nmc_pct 47.76, unit_weight_kNm3 16.92   [both overridden]
+  Two-span bridge BH-03 36.0 m  <->  VUP (DS-06) BH-03 48.0 m   sand_pct 79.78, unit_weight_kNm3 17.02
+  Two-span bridge BH-05 3.0 m  <->  VUP Ch. 103+017 BH-02 6.0 m   clay_pct 15.33, sand_pct 5.05   [both overridden]
+  Two-span bridge BH-05 12.0 m  <->  VUP Ch. 103+017 BH-02 18.0 m   clay_pct 18.39, sand_pct 4.99
+  Two-span bridge BH-05 21.0 m  <->  VUP Ch. 103+017 BH-02 33.0 m   clay_pct 9.20, sand_pct 6.68
+  Two-span bridge BH-05 28.5 m  <->  VUP Ch. 103+017 BH-02 28.5 m   sand_pct 83.77, unit_weight_kNm3 17.93
+  Two-span bridge BH-06 12.0 m  <->  VUP Ch. 103+017 BH-03 9.0 m   nmc_pct 36.51, unit_weight_kNm3 17.59   [both overridden]
+  Two-span bridge BH-06 36.0 m  <->  VUP Ch. 103+017 BH-03 48.0 m   sand_pct 81.93, unit_weight_kNm3 17.56
+  same depth: 2; different depths: 9 (offsets 1.5-12.0 m)
+
+==============================================================================
+3. AT THE 216 OVERRIDDEN DEPTHS
+==============================================================================
+  supported verdicts: 39; supporting value printed identically for another borehole's sample: 10 (8 with no other supporting value)
+     Two-span bridge BH-02 7.5 m  LL 35.40  also at VUP (DS-06) BH-02 7.5 m; VUP Ch. 103+017 BH-01 12.0 m
+     Two-span bridge BH-03 16.5 m  LL 42.05  also at VUP (DS-06) BH-03 16.5 m
+     Two-span bridge BH-04 16.5 m  LL 38.01  also at VUP (DS-06) BH-04 18.0 m
+     Two-span bridge BH-05 3.0 m  clay 15.33  also at VUP Ch. 103+017 BH-02 6.0 m
+     Two-span bridge BH-05 12.0 m  clay 18.39  also at VUP Ch. 103+017 BH-02 18.0 m
+     VUP (DS-06) BH-02 7.5 m  LL 35.40  also at Two-span bridge BH-02 7.5 m; VUP Ch. 103+017 BH-01 12.0 m
+     VUP (DS-06) BH-03 16.5 m  LL 42.05  also at Two-span bridge BH-03 16.5 m
+     VUP (DS-06) BH-04 18.0 m  LL 38.01  also at Two-span bridge BH-04 16.5 m
+     VUP Ch. 103+017 BH-01 12.0 m  LL 35.40  also at Two-span bridge BH-02 7.5 m; VUP (DS-06) BH-02 7.5 m
+     VUP Ch. 103+017 BH-02 6.0 m  clay 15.33  also at Two-span bridge BH-05 3.0 m
+  moisture content at overridden depths: 32; printed identically for another borehole's sample: 16
+  laboratory-summary moisture contents: 135 values, 107 distinct
+
+  the worked example, VUP Ch. 103+017 BH-03 9.0 m:
+     LL_pct 38.13: unique
+     PI_pct 13.63: unique
+     PL_pct 24.50: unique
+     nmc_pct 36.51: also at Two-span bridge BH-06 12.0 m
+     unit_weight_kNm3 17.59: also at Bridge 37 BH-01 7.5 m; Two-span bridge BH-06 12.0 m

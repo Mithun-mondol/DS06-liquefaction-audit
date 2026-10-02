@@ -1,0 +1,39 @@
+lab rows 988   atterberg 23   moisture 120
+
+==============================================================================
+1. SAMPLES WITH BOTH e0 AND Gs: 12
+==============================================================================
+structure                    BH        depth     e0     Gs  w_sat%    NMC%  ratio
+Ch. 102+730 R/S, Sonar Tori  BH-01       7.5  1.014  2.690   37.70   36.20  0.960
+Ch. 102+770, Sonar Tori Brid BH-02      12.0  0.769  2.680   28.69   26.70  0.931
+Ch. 102+810, Sonar Tori Brid BH-03       9.0  1.175  2.680   43.84   47.76  1.089
+Ch. 102+820, Madhabpur Bazar BH-04      12.0  0.954  2.700   35.33   36.30  1.027
+Ch. 102+860, Madhabpur Bazar BH-05      13.5  0.964  2.620   36.79   40.32  1.096
+Ch. 102+930, Madhabpur Bazar BH-06      12.0  0.930  2.670   34.83   36.51  1.048
+Ch. 103+033, Madhabpur Bazar BH-01      15.0  0.915  2.690   34.01   33.60  0.988
+Ch. 103+061, Madhabpur Bazar BH-02      10.5  0.801  2.680   29.89   29.73  0.995
+Ch. 103+101, Madhabpur Bazar BH-03       9.0  1.175  2.680   43.84   47.76  1.089
+Ch. 103+129, Madhabpur Bazar BH-04       7.5  0.916  2.700   33.93   37.16  1.095
+Ch. 98+952.710, Islampur Baz BH-01       7.5  0.845  2.650   31.89   22.56  0.708
+Ch. 98+980.150, Islampur Baz BH-02       9.0  0.878  2.660   33.01   29.42  0.891
+
+VALIDATION on 12 samples that also have NMC:
+  NMC / (e0/Gs)  min 0.708  median 1.011  max 1.096
+  implied degree of saturation S = NMC*Gs/e0 : 70.8% to 109.6%
+  samples where measured NMC EXCEEDS the saturated value by >2%: 6   (would indicate e0 and NMC are not from the same specimen)
+
+==============================================================================
+2. CO-LOCATION WITH THE 23 ATTERBERG SAMPLES
+==============================================================================
+  HIT  VUP (DS-06)                BH-01      15.0 m  LL= 39.0 PI= 19.0  e0=0.915 Gs=2.690  w_sat=34.01%
+
+  Atterberg samples with a co-located e0+Gs pair: 1 of 23
+  Atterberg samples with a co-located moisture value (F1 re-check): 2
+
+==============================================================================
+3. PACKAGE ENVELOPE
+==============================================================================
+  w_sat = e0/Gs over 12 samples: 28.7% - 43.8%, median 34.4%
+  measured NMC over 135 lab rows: 15.0% - 53.1%, median 24.8%
+  measured NMC, depth <= 20 m, 65 rows: 16.8% - 53.1%, median 30.8%
+  LL over the 23 Atterberg samples: 24 - 55, median 38

@@ -1,0 +1,44 @@
+==============================================================================
+CORRECTED CENSUS
+==============================================================================
+  distinct samples with a liquid limit, either source : 25
+    from an Atterberg sheet                           : 23
+    from a lab-summary row                            : 19
+    from BOTH (same sample, two documents)            : 17
+
+  *** samples with LL and moisture at the same identity : 2 ***
+      VUP Ch. 103+017                            BH-03      9.0 m  LL=38.13 PI=13.63 wn=[('lab', 36.51)]
+      VUP (DS-06)                                BH-01     15.0 m  LL=39.05 PI=19.33 wn=[('lab', 33.6)]
+
+  moisture determinations total: 120 sheets + 135 lab-summary rows
+
+==============================================================================
+VERDICTS WHERE THE CRITERION IS ACTUALLY EVALUABLE
+==============================================================================
+
+  VUP Ch. 103+017
+    BH-03 at 9.0 m   wn=36.51  LL=38.13  PI=13.63  wn/LL=0.958
+    Chinese Criteria : non-liquefiable                      (LL 38.13 >= 35; wn 36.51 >= 0.9LL 34.32)
+    Bray & Sancio    : moderately susceptible               (12<=PI<=18 and wn/LL 0.958 > 0.80)
+    --> DISAGREE  [OBSERVED, not inferred]
+
+  VUP (DS-06)
+    BH-01 at 15.0 m   wn=33.60  LL=39.05  PI=19.33  wn/LL=0.860
+    Chinese Criteria : non-liquefiable                      (LL 39.05 >= 35)
+    Bray & Sancio    : not susceptible                      (PI 19.33 > 18)
+    --> AGREE  [OBSERVED, not inferred]
+
+==============================================================================
+EFFECT ON THE SCREENING COMPARISON
+==============================================================================
+  settled by PI alone (PI > 18, not susceptible)        : 12
+  resolved by a MEASURED wn                             : 1
+  still hinging on an UNMEASURED wn -> the O4 sweep      : 12
+  total                                                 : 25
+
+==============================================================================
+SATURATION CHECK ON THE ONE ROW CARRYING wn, Gs AND e0
+==============================================================================
+  VUP (DS-06) BH-01 15.0 m
+    e0=0.915 Gs=2.690 -> w_sat = e0/Gs = 34.01%
+    measured wn = 33.60%  ->  S = 9878.0%

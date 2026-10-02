@@ -1,0 +1,66 @@
+============================================================================
+POPULATION
+============================================================================
+  computation rows                         : 390
+  rows with both a FOS and a conclusion    : 366
+  OVERRIDDEN (conclusion NL, FOS < 1.0)    : 216
+  rows without FOS or conclusion (refusal) : 24
+
+============================================================================
+INDEX-TEST COVERAGE, keyed on report + borehole + depth
+============================================================================
+
+  OVERRIDDEN depths (NL despite FOS < 1)  (n = 216)
+     liquid limit at that exact depth  : 24 of 216 (11.1%)
+     moisture at that exact depth      : 32 of 216 (14.8%)
+     BOTH - criterion evaluable        : 2 of 216 (0.9%)
+
+  all other depths carrying a conclusion  (n = 150)
+     liquid limit at that exact depth  : 1 of 150 (0.7%)
+     moisture at that exact depth      : 29 of 150 (19.3%)
+     BOTH - criterion evaluable        : 0 of 150 (0.0%)
+
+  every computation row  (n = 390)
+     liquid limit at that exact depth  : 25 of 390 (6.4%)
+     moisture at that exact depth      : 65 of 390 (16.7%)
+     BOTH - criterion evaluable        : 2 of 390 (0.5%)
+
+  The overridden depths where the criterion IS evaluable:
+     VUP Ch. 103+017                              BH-03      9.0 m  FOS= 0.41 strata=CL   LL=38.00 wn=36.51
+     VUP (DS-06)                                  BH-01     15.0 m  FOS= 0.36 strata=CL   LL=39.00 wn=33.60
+
+  The overridden depths with a liquid limit but NO moisture:
+     Bridge 32                                    BH-01      6.0 m  FOS= 0.25 strata=CL   LL=38.0 PI=10.0
+     Bridge 32                                    BH-02      9.0 m  FOS= 0.22 strata=CL   LL=33.0 PI=11.0
+     Bridge 34                                    BH-01     10.5 m  FOS= 0.19 strata=CL   LL=45.0 PI=20.0
+     Bridge 34                                    BH-02     12.0 m  FOS= 0.19 strata=CL   LL=46.0 PI=22.0
+     Bridge 34                                    BH-02     18.0 m  FOS= 0.20 strata=CL   LL=24.0 PI=12.0
+     Bridge 35                                    BH-01      7.5 m  FOS= 0.16 strata=CL   LL=39.0 PI=11.0
+     Bridge 35                                    BH-02      9.0 m  FOS= 0.19 strata=CL   LL=47.0 PI=24.0
+     Bridge 36                                    BH-01      6.0 m  FOS= 0.25 strata=CL   LL=55.0 PI=23.0
+     Bridge 36                                    BH-02      6.0 m  FOS= 0.25 strata=CL   LL=33.0 PI=10.0
+     Two-span bridge                              BH-01     18.0 m  FOS= 0.34 strata=CL   LL=39.0 PI=22.0
+     Two-span bridge                              BH-02      7.5 m  FOS= 0.20 strata=CL   LL=35.0 PI=19.0
+     Two-span bridge                              BH-03     16.5 m  FOS= 0.51 strata=CL   LL=42.0 PI=24.0
+     Two-span bridge                              BH-04     16.5 m  FOS= 0.43 strata=CL   LL=38.0 PI=10.0
+     Two-span bridge                              BH-05     16.5 m  FOS= 0.33 strata=CL   LL=36.0 PI=21.0
+     Two-span bridge                              BH-06     18.0 m  FOS= 0.28 strata=CL   LL=43.0 PI=23.0
+     VUP Ch. 103+017                              BH-01     12.0 m  FOS= 0.35 strata=CL   LL=35.0 PI=16.0
+     VUP Ch. 103+017                              BH-04     12.0 m  FOS= 0.29 strata=CL   LL=36.0 PI=4.0
+     Culvert BC-03                                BH-01      6.0 m  FOS= 0.25 strata=CL   LL=39.8 PI=16.66
+     Culvert BC-03                                BH-02     16.5 m  FOS= 0.59 strata=CL   LL=38.0 PI=15.04
+     VUP (DS-06)                                  BH-02      7.5 m  FOS= 0.31 strata=CL   LL=35.0 PI=18.0
+     VUP (DS-06)                                  BH-03     16.5 m  FOS= 0.55 strata=CL   LL=42.0 PI=24.0
+     VUP (DS-06)                                  BH-04     18.0 m  FOS= 0.41 strata=CL   LL=38.0 PI=21.0
+     -> 22 depths where the screen decided the outcome and LL exists but wn does not
+
+============================================================================
+HEADLINE, CORRECTED
+============================================================================
+  216 of 366 depths carrying a conclusion (59.0%) are declared non-liquefiable
+  with a computed FOS below 1.0. FOS range 0.13-0.83, median 0.27.
+  strata of the overridden depths: {'CL': 216}
+  spanning 30 of 30 boreholes
+
+  Of those 216 overridden depths, the declared Chinese Criteria is
+  evaluable at 2 of them.
